@@ -1,0 +1,12 @@
+@import 'src/assets/variables';
+
+.page-description {
+  min-height: calc(100vh - 400px);
+  background-color: #FDF0E9;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  font: 400 16px $epilogue;
+  color: $primary-grey;
+}

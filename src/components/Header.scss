@@ -1,0 +1,31 @@
+@import 'src/assets/variables';
+@import 'NavigationBar';
+
+.header {
+  height: 400px;
+  background-color: #28293E;
+  border-color: $primary-grey;
+
+  .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 82px auto auto auto;
+
+    .heading__text {
+      margin-bottom: 34px;
+      font: 400 72px $epilogue;
+      color: #FFFFFF;
+    }
+
+    .heading__subtext {
+      width: calc(100% - 50px);
+      text-align: center;
+      max-width: 570px;
+      font: 400 16px $epilogue;
+      line-height: 32px;
+      color: $primary-grey;
+    }
+  }
+}

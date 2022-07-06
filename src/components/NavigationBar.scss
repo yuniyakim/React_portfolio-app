@@ -1,0 +1,47 @@
+@import 'src/assets/variables';
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 16px;
+
+  .logo {
+    display: flex;
+    align-items: center;
+    width: 138px;
+
+    .logo__text {
+      padding-left: 15px;
+      font: 400 24px $epilogue;
+    }
+  }
+
+  .main-navigation {
+    display: flex;
+    margin: 0 185px;
+    justify-content: space-between;
+    width: 522px;
+  }
+
+  .navigation__link {
+    font: 400 16px $epilogue;
+    color: #FFFFFF;
+    text-decoration: none;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .navigation__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 138px;
+    height: 48px;
+    border: solid 1px #FFFFFF;
+    border-radius: 8px;
+    font: 400 14px $epilogue;
+  }
+}
